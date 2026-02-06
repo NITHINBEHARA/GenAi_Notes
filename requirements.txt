@@ -1,0 +1,49 @@
+# -------------------------
+# Core utilities
+# -------------------------
+python-dotenv
+requests
+numpy
+
+# -------------------------
+# Database
+# -------------------------
+pymongo
+
+# -------------------------
+# PDF processing
+# -------------------------
+PyMuPDF
+
+# -------------------------
+# NLP & Embeddings
+# -------------------------
+sentence-transformers
+# transformers is a dependency of sentence-transformers, no need to list explicitly unless version locking
+# tokenizers is also a dep
+huggingface-hub
+
+# -------------------------
+# Machine Learning
+# -------------------------
+torch
+torchvision
+# torchaudio - likely unused
+
+# -------------------------
+# Multimodal / Image RAG
+# -------------------------
+open-clip-torch
+Pillow
+
+# -------------------------
+# LLM Providers
+# -------------------------
+groq
+
+# -------------------------
+# Optional / Helpful
+# -------------------------
+tqdm
+regex
+safetensors
